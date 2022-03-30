@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,24 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* .App {
+  text-align: center;
+  background-image: url(./img/background.jpg);
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: "center";
+} */
+
+.main {
+  text-align: center;
+  background-image: url(./img/background.jpg);
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: "center";
 }
