@@ -13,7 +13,9 @@ function Footer() {
         },
       }}
     >
-      <h6>gg</h6>
+      <h6>
+        By <a href="https://github.com/ggruiz7">gg</a>© 2022
+      </h6>
     </Box>
   );
 }

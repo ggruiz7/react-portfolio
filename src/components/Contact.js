@@ -84,16 +84,6 @@ function Contact() {
         onBlur={handleChange}
       />
 
-      {/*        <TextField
-          id="outlined-basic"
-          placeholder="Enter Subject"
-          label="Subject"
-          variant="outlined"
-          value={this.state.subject}
-          onChange={(e) => this.setState({ subject: e.target.value })}
-          required
-        /> */}
-
       {invalidEntry && (
         <div>
           <p>{invalidEntry}</p>

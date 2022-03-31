@@ -1,11 +1,11 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import Background from "./img/background.jpg";
+import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Footer from "./components/Footer.js";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact";
+import About from "./components/About/About";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
         </Routes>
         <div class="footer">
           <Footer />
